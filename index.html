@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <head>
     <body>
+        <head>
+            <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdWJQEqAAAAAKiPmqOSLhZMBuyadLPHwVR5c23f"></script>
+            <script>
+                function onClick(e) {
+                  e.preventDefault();
+                  grecaptcha.enterprise.ready(async () => {
+                    const token = await grecaptcha.enterprise.execute('6LdWJQEqAAAAAKiPmqOSLhZMBuyadLPHwVR5c23f', {action: 'LOGIN'});
+                  });
+                }
+              </script> 
         <h1>hai</h1>
     </body>
 </head>
