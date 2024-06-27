@@ -1,16 +1,9 @@
-Type
-MX
-Host
-@
-Priority
-10
-Value
-mx01.mail.icloud.com.
-Type
-MX
-Host
-@
-Priority
-10
-Value
-mx02.mail.icloud.com.
+Type MX
+Host @
+Value mx01.mail.icloud.com.
+Priority 10
+
+Type MX
+Host @
+Value mx02.mail.icloud.com.
+Priority 10
