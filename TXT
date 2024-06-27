@@ -1,0 +1,12 @@
+Type
+TXT
+Host
+@
+Value
+apple-domain=uNfUlOAm1BcPmVTq
+Type
+TXT
+Host
+@
+Value
+"v=spf1 include:icloud.com ~all"
